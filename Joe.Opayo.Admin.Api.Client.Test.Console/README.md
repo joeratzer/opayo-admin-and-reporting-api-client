@@ -1,5 +1,5 @@
 
-#A simple console App to test the API client with the GetTransactionDetail endpoint 
+# A simple console App to test the API client with the GetTransactionDetail endpoint 
 https://developer-eu.elavon.com/docs/opayo-reporting-api/reporting-commands/gettransactiondetail?query=getTransactionDetail
 
 Usage: run with 5 parameters
