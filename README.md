@@ -6,7 +6,8 @@ Usage:
 
 ```
 var client = new OpayoAdminApiClient();
-var request = new OpayoApiRequest(ApiCommandType.GetTransactionDetail, password, test, user, vendor);
+var isTestEnvironment = true;
+var request = new OpayoApiRequest(ApiCommandType.GetTransactionDetail, "password", isTestEnvironment, "user-name", "vendor-name");
 var commandSpecificXml = "<vendortxcode>01Jan2010Transaction12345</vendortxcode>"; // see gettransactiondetail on the Opayo API
 return await client.ProcessApiCommandAsync<TransactionDetail>(request, commandSpecificXml);
 ```
