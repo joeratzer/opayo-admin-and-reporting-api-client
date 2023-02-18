@@ -3,7 +3,7 @@
 https://developer-eu.elavon.com/docs/opayo-reporting-api/reporting-commands/gettransactiondetail?query=getTransactionDetail
 
 Usage: run with 5 parameters
-1) true/false to determining if the test Opayo environment is used
+1) true/false to determine if the test Opayo environment is used
 2) API username
 3) API user-password
 4) vendor-name
