@@ -13,3 +13,5 @@ var request = new OpayoApiRequest(ApiCommandType.GetTransactionDetail, password,
 var commandSpecificXml = "<vendortxcode>01Jan2010Transaction12345</vendortxcode>"; // e.g., see gettransactiondetail at https://developer-eu.elavon.com/docs/opayo-reporting-api/reporting-commands/gettransactiondetail?query=getTransactionDetail
 return await client.ProcessApiCommandAsync<TransactionDetail>(request, commandSpecificXml);
 ```
+
+The code has ```TransactionDetail``` as an example, but the other return-types will need to be in your own project.
