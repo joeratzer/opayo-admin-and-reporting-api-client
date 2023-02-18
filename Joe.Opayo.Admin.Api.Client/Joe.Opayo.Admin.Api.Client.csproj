@@ -6,7 +6,31 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Client for Opayo-SagePay's Reporting &amp; Admin API</Title>
+    <PackageProjectUrl>https://github.com/joeratzer/opayo-admin-and-reporting-api-client</PackageProjectUrl>
+    <Description>.NET-core client-application for Opayo's (formerly SagePay's) Admin and Reporting API.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/joeratzer/opayo-admin-and-reporting-api-client</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Client for Opayo Reporting Admin API; Client for SagePay Reporting Admin API; Client for Elavon Reporting Admin API;</PackageTags>
+    <PackageReleaseNotes>V1</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageIcon>jr-128-x-128.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\jr-128-x-128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Joe.Opayo.Admin.Api.Client.Model\Joe.Opayo.Admin.Api.Client.Model.csproj" />
