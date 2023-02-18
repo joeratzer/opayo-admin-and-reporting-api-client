@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -7,15 +7,18 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Client for Opayo-SagePay's Reporting and Admin API</Title>
     <PackageProjectUrl>https://github.com/joeratzer/opayo-admin-and-reporting-api-client</PackageProjectUrl>
-    <Description>.NET-core client-code for Opayo's (formerly SagePay's) Admin and Reporting API. Covers the basics such as authentication and processing all the API endpoints.</Description>
+    <Description>.NET client-code for Opayo's (formerly SagePay's) Admin and Reporting API. Covers the basics, such as authentication, and processes all the API endpoints.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/joeratzer/opayo-admin-and-reporting-api-client</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>Client for Opayo Reporting Admin API; Client for SagePay Reporting Admin API; Client for Elavon Reporting Admin API;</PackageTags>
-    <PackageReleaseNotes>V1</PackageReleaseNotes>
+    <PackageTags>Opayo-API; SagePay-API; Elavon-API;Opayo-Admin-Reporting-API;</PackageTags>
+    <PackageReleaseNotes>V1.1</PackageReleaseNotes>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageIcon>jr-128-x-128.png</PackageIcon>
     <LangVersion>default</LangVersion>
+    <Version>1.1.0</Version>
+    <Authors>joeratzer</Authors>
+    <Company />
   </PropertyGroup>
 
   <ItemGroup>
