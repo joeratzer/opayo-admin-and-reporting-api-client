@@ -5,9 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>Client for Opayo-SagePay's Reporting &amp; Admin API</Title>
+    <Title>Client for Opayo-SagePay's Reporting and Admin API</Title>
     <PackageProjectUrl>https://github.com/joeratzer/opayo-admin-and-reporting-api-client</PackageProjectUrl>
-    <Description>.NET-core client-application for Opayo's (formerly SagePay's) Admin and Reporting API.</Description>
+    <Description>.NET-core client-code for Opayo's (formerly SagePay's) Admin and Reporting API. Covers the basics such as authentication and processing all the API endpoints.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/joeratzer/opayo-admin-and-reporting-api-client</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
