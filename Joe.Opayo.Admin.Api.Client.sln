@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joe.Opayo.Admin.Api.Client.Test.Console", "Joe.Opayo.Admin.Api.Client.Test.Console\Joe.Opayo.Admin.Api.Client.Test.Console.csproj", "{4753995B-BB8D-4B60-BD4A-FCF3572EE12C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Joe.Opayo.Admin.Api.Client.Test.Console", "Joe.Opayo.Admin.Api.Client.Test.Console\Joe.Opayo.Admin.Api.Client.Test.Console.csproj", "{4753995B-BB8D-4B60-BD4A-FCF3572EE12C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joe.Opayo.Admin.Api.Client", "Joe.Opayo.Admin.Api.Client\Joe.Opayo.Admin.Api.Client.csproj", "{F9A78C19-5743-439A-A619-A7509BFE6AC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Joe.Opayo.Admin.Api.Client", "Joe.Opayo.Admin.Api.Client\Joe.Opayo.Admin.Api.Client.csproj", "{F9A78C19-5743-439A-A619-A7509BFE6AC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joe.Opayo.Admin.Api.Client.Model", "Joe.Opayo.Admin.Api.Client.Model\Joe.Opayo.Admin.Api.Client.Model.csproj", "{288990CC-101B-48AA-ACAF-DB7D9FE4C062}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joe.Opayo.Admin.Api.Unit.Test", "Joe.Opayo.Admin.Api.Unit.Test\Joe.Opayo.Admin.Api.Unit.Test.csproj", "{6F823B69-1B26-46B3-9031-B5F8BA0C21BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Joe.Opayo.Admin.Api.Unit.Test", "Joe.Opayo.Admin.Api.Unit.Test\Joe.Opayo.Admin.Api.Unit.Test.csproj", "{6F823B69-1B26-46B3-9031-B5F8BA0C21BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +23,6 @@ Global
 		{F9A78C19-5743-439A-A619-A7509BFE6AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9A78C19-5743-439A-A619-A7509BFE6AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9A78C19-5743-439A-A619-A7509BFE6AC6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{288990CC-101B-48AA-ACAF-DB7D9FE4C062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{288990CC-101B-48AA-ACAF-DB7D9FE4C062}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{288990CC-101B-48AA-ACAF-DB7D9FE4C062}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{288990CC-101B-48AA-ACAF-DB7D9FE4C062}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6F823B69-1B26-46B3-9031-B5F8BA0C21BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6F823B69-1B26-46B3-9031-B5F8BA0C21BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F823B69-1B26-46B3-9031-B5F8BA0C21BE}.Release|Any CPU.ActiveCfg = Release|Any CPU

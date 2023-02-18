@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Joe.Opayo.Admin.Api.Client.Model.Enums
+namespace Joe.Opayo.Admin.Api.Client.Models.Enums
 {
     public enum ApiCommandType
     {

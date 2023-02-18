@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Joe.Opayo.Admin.Api.Client.Model\Joe.Opayo.Admin.Api.Client.Model.csproj" />
     <ProjectReference Include="..\Joe.Opayo.Admin.Api.Client\Joe.Opayo.Admin.Api.Client.csproj" />
   </ItemGroup>
 

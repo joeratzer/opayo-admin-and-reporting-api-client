@@ -1,7 +1,7 @@
 ﻿using System.Text;
-using Joe.Opayo.Admin.Api.Client.Model.Extensions;
+using Joe.Opayo.Admin.Api.Client.Models.Extensions;
 
-namespace Joe.Opayo.Admin.Api.Client.Model
+namespace Joe.Opayo.Admin.Api.Client.Models
 {
     public class OpayoApiResponse
     {

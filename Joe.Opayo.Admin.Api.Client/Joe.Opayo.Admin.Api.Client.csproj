@@ -37,7 +37,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Joe.Opayo.Admin.Api.Client.Model\Joe.Opayo.Admin.Api.Client.Model.csproj" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
   </ItemGroup>
 
 </Project>

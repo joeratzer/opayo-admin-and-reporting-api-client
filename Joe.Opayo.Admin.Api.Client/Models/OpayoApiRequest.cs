@@ -1,6 +1,6 @@
-﻿using Joe.Opayo.Admin.Api.Client.Model.Enums;
+﻿using Joe.Opayo.Admin.Api.Client.Models.Enums;
 
-namespace Joe.Opayo.Admin.Api.Client.Model
+namespace Joe.Opayo.Admin.Api.Client.Models
 {
     public class OpayoApiRequest
     {

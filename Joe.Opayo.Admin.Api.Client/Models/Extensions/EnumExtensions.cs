@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 
-namespace Joe.Opayo.Admin.Api.Client.Model.Extensions
+namespace Joe.Opayo.Admin.Api.Client.Models.Extensions
 {
     public static class EnumExtensions
     {

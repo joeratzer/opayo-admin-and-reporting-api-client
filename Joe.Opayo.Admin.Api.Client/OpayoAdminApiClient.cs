@@ -1,9 +1,9 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 using Joe.Opayo.Admin.Api.Client.Interfaces;
-using Joe.Opayo.Admin.Api.Client.Model;
-using Joe.Opayo.Admin.Api.Client.Model.Exceptions;
-using Joe.Opayo.Admin.Api.Client.Model.Extensions;
+using Joe.Opayo.Admin.Api.Client.Models;
+using Joe.Opayo.Admin.Api.Client.Models.Exceptions;
+using Joe.Opayo.Admin.Api.Client.Models.Extensions;
 
 namespace Joe.Opayo.Admin.Api.Client
 {

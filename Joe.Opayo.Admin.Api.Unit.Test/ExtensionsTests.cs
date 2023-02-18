@@ -1,5 +1,5 @@
-using Joe.Opayo.Admin.Api.Client.Model.Extensions;
-using Joe.Opayo.Admin.Api.Client.Model.Responses;
+using Joe.Opayo.Admin.Api.Client.Models.Extensions;
+using Joe.Opayo.Admin.Api.Client.Models.Responses;
 
 namespace Joe.Opayo.Admin.Api.Unit.Test
 {

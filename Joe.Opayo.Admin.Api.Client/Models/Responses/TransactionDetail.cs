@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using System.Xml.Serialization;
 
-namespace Joe.Opayo.Admin.Api.Client.Model.Responses
+namespace Joe.Opayo.Admin.Api.Client.Models.Responses
 {
     [XmlRoot(ElementName = "vspaccess")]
     public class TransactionDetail

@@ -1,4 +1,4 @@
-﻿using Joe.Opayo.Admin.Api.Client.Model;
+﻿using Joe.Opayo.Admin.Api.Client.Models;
 
 namespace Joe.Opayo.Admin.Api.Client.Interfaces
 {

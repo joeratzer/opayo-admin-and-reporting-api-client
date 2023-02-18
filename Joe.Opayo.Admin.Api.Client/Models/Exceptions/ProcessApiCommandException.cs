@@ -1,4 +1,4 @@
-﻿namespace Joe.Opayo.Admin.Api.Client.Model.Exceptions
+﻿namespace Joe.Opayo.Admin.Api.Client.Models.Exceptions
 {
     public class ProcessApiCommandException : Exception
     {
