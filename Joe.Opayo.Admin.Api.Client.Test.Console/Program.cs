@@ -38,7 +38,7 @@ namespace Joe.Opayo.Admin.Api.Client.Test.Console
                                      "2) API username, " +
                                      "3) API user-password, " +
                                      "4) vendor-name, " +
-                                     "5) transaction-code (VendorTxCode)");
+                                     "5) command-specific xml. E.g. <vendortxcode>1234567890</vendortxcode>");
         }
 
         private static TransactionDetail GetTransactionDetail(bool test,

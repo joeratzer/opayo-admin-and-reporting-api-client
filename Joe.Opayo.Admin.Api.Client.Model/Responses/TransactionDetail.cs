@@ -7,7 +7,7 @@ namespace Joe.Opayo.Admin.Api.Client.Model.Responses
     public class TransactionDetail
     {
         [XmlElement(ElementName = "errorcode")]
-        public int? ErrorCode { get; set; }
+        public string? ErrorCode { get; set; }
 
         [XmlElement(ElementName = "timestamp")]
         public string? TimeStamp { get; set; }
@@ -22,7 +22,7 @@ namespace Joe.Opayo.Admin.Api.Client.Model.Responses
         public string? TransactionType { get; set; }
 
         [XmlElement(ElementName = "txstateid")]
-        public int? TxStateId { get; set; }
+        public string? TxStateId { get; set; }
 
         [XmlElement(ElementName = "status")]
         public string? Status { get; set; }
@@ -31,7 +31,7 @@ namespace Joe.Opayo.Admin.Api.Client.Model.Responses
         public string? Description { get; set; }
 
         [XmlElement(ElementName = "amount")]
-        public double? Amount { get; set; }
+        public string? Amount { get; set; }
 
         [XmlElement(ElementName = "currency")]
         public string? Currency { get; set; }
@@ -58,28 +58,28 @@ namespace Joe.Opayo.Admin.Api.Client.Model.Responses
         public string? PaymentSystemDetails { get; set; }
 
         [XmlElement(ElementName = "expirydate")]
-        public int? ExpiryDate { get; set; }
+        public string? ExpiryDate { get; set; }
 
         [XmlElement(ElementName = "last4digits")]
-        public int? LastFourDigits { get; set; }
+        public string? LastFourDigits { get; set; }
 
         [XmlElement(ElementName = "authprocessor")]
         public string? AuthProcessor { get; set; }
 
         [XmlElement(ElementName = "merchantnumber")]
-        public int? MerchantNumber { get; set; }
+        public string? MerchantNumber { get; set; }
 
         [XmlElement(ElementName = "accounttype")]
         public string? AccountType { get; set; }
 
         [XmlElement(ElementName = "vpsauthcode")]
-        public int? VpsAuthCode { get; set; }
+        public string? VpsAuthCode { get; set; }
 
         [XmlElement(ElementName = "bankauthcode")]
-        public int? BankAuthCode { get; set; }
+        public string? BankAuthCode { get; set; }
 
         [XmlElement(ElementName = "batchid")]
-        public int? BatchId { get; set; }
+        public string? BatchId { get; set; }
 
         [XmlElement(ElementName = "billingfirstnames")]
         public string? BillingFirstNames { get; set; }
@@ -97,7 +97,7 @@ namespace Joe.Opayo.Admin.Api.Client.Model.Responses
         public string? BillingCity { get; set; }
 
         [XmlElement(ElementName = "billingstate")]
-        public object? BillingState { get; set; }
+        public string? BillingState { get; set; }
 
         [XmlElement(ElementName = "billingpostcode")]
         public string? BillingPostcode { get; set; }
@@ -193,13 +193,13 @@ namespace Joe.Opayo.Admin.Api.Client.Model.Responses
         public string? CustomerXml { get; set; }
 
         [XmlElement(ElementName = "applyavscv2")]
-        public int? ApplyAvsCv2 { get; set; }
+        public string? ApplyAvsCv2 { get; set; }
 
         [XmlElement(ElementName = "apply3dsecure")]
         public int? Apply3dSecure { get; set; }
 
         [XmlElement(ElementName = "authattempt")]
-        public int? AuthAttempt { get; set; }
+        public string? AuthAttempt { get; set; }
 
         [XmlElement(ElementName = "cv2result")]
         public string? Cv2Result { get; set; }
@@ -211,22 +211,22 @@ namespace Joe.Opayo.Admin.Api.Client.Model.Responses
         public string? PostcodeResult { get; set; }
 
         [XmlElement(ElementName = "threedattempt")]
-        public int? ThreeDAttempt { get; set; }
+        public string? ThreeDAttempt { get; set; }
 
         [XmlElement(ElementName = "threedresult")]
         public string? ThreeDResult { get; set; }
 
         [XmlElement(ElementName = "eci")]
-        public int? Eci { get; set; }
+        public string? Eci { get; set; }
 
         [XmlElement(ElementName = "t3mscore")]
-        public int? T3MScore { get; set; }
+        public string? T3MScore { get; set; }
 
         [XmlElement(ElementName = "t3maction")]
         public string? T3MAction { get; set; }
 
         [XmlElement(ElementName = "t3mid")]
-        public int? T3Mid { get; set; }
+        public string? T3Mid { get; set; }
 
         [XmlElement(ElementName = "emailmessage")]
         public string? EmailMessage { get; set; }
@@ -235,7 +235,7 @@ namespace Joe.Opayo.Admin.Api.Client.Model.Responses
         public string? Locale { get; set; }
 
         [XmlElement(ElementName = "declinecode")]
-        public int? DeclineCode { get; set; }
+        public string? DeclineCode { get; set; }
 
         [XmlElement(ElementName = "vendordata")]
         public string? VendorData { get; set; }
@@ -244,7 +244,7 @@ namespace Joe.Opayo.Admin.Api.Client.Model.Responses
         public string? Website { get; set; }
 
         [XmlElement(ElementName = "surcharge")]
-        public double? Surcharge { get; set; }
+        public string? Surcharge { get; set; }
 
         public override string ToString()
         {

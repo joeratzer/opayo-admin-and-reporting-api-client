@@ -18,10 +18,12 @@ namespace Joe.Opayo.Admin.Api.Client.Model.Extensions
             if (string.IsNullOrWhiteSpace(xmlText))
                 return new T();
 
-            var xml = new XmlDocument();
-            xml.LoadXml(xmlText);
+            var xmlDoc = new XmlDocument();
+            xmlDoc.LoadXml(xmlText);
+            xmlDoc.RemoveXmlDeclarationHeader();
+
             var serializer = new XmlSerializer(typeof(T));
-            return (T?)serializer.Deserialize(new StringReader(xml.OuterXml));
+            return (T?)serializer.Deserialize(new StringReader(xmlDoc.OuterXml));
         }
     }
 }
