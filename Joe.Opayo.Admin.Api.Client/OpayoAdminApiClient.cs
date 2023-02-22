@@ -1,5 +1,4 @@
-﻿using System.Net.Http;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
 using Joe.Opayo.Admin.Api.Client.Interfaces;
 using Joe.Opayo.Admin.Api.Client.Models;
