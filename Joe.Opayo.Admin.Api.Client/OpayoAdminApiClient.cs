@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.Net.Http;
+using System.Security.Cryptography;
 using System.Text;
 using Joe.Opayo.Admin.Api.Client.Interfaces;
 using Joe.Opayo.Admin.Api.Client.Models;
@@ -23,8 +24,8 @@ namespace Joe.Opayo.Admin.Api.Client
 
             var result = await PostApiCommandAsync(xmlCommand, request.Test);
 
-            if (result?.Content == null || !result.Success)
-                throw new ProcessApiCommandException($"Failed to process command. Message: {result?.Messages.ToCsv()}. Content: {result?.Content}.");
+            if (result.Content == null || !result.Success)
+                throw new ProcessApiCommandException($"Failed to process command. Message: {result.Messages.ToCsv()}. Content: {result.Content}.");
 
             return result.Content.ToObject<T>() ?? new T();
         }
@@ -34,8 +35,11 @@ namespace Joe.Opayo.Admin.Api.Client
         {
             if (string.IsNullOrWhiteSpace(xmlCommand))
                 throw new ArgumentException($"{nameof(xmlCommand)} cannot be empty. {nameof(xmlCommand)}: {xmlCommand}", $"{nameof(xmlCommand)}");
-            
-            Client.BaseAddress = new Uri(testEndpoint ? TestUrl : LiveUrl);
+
+            if (Client.BaseAddress == null)
+            {
+                Client.BaseAddress = new Uri(testEndpoint ? TestUrl : LiveUrl);
+            }            
             var postParams = new Dictionary<string, string> { { "XML", xmlCommand } };
             var postContent = new FormUrlEncodedContent(postParams);
             var response = await Client.PostAsync("/access/access.htm", postContent);
