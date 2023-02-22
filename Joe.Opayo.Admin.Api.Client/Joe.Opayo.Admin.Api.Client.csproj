@@ -16,7 +16,7 @@
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageIcon>jr-128-x-128.png</PackageIcon>
     <LangVersion>default</LangVersion>
-    <Version>1.2.0</Version>
+    <Version>1.2.1</Version>
     <Authors>joeratzer</Authors>
     <Company />
   </PropertyGroup>
