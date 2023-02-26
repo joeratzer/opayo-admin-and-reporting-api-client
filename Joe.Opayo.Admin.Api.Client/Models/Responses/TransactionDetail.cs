@@ -4,14 +4,8 @@ using System.Xml.Serialization;
 namespace Joe.Opayo.Admin.Api.Client.Models.Responses
 {
     [XmlRoot(ElementName = "vspaccess")]
-    public class TransactionDetail
+    public class TransactionDetail : BaseTransactionDetail
     {
-        [XmlElement(ElementName = "errorcode")]
-        public string? ErrorCode { get; set; }
-
-        [XmlElement(ElementName = "timestamp")]
-        public string? TimeStamp { get; set; }
-
         [XmlElement(ElementName = "vpstxid")]
         public string? VpsTxId { get; set; }
 

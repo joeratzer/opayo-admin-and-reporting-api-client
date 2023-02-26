@@ -1,5 +1,5 @@
-﻿using System.Text;
-using Joe.Opayo.Admin.Api.Client.Models.Extensions;
+﻿using Joe.Opayo.Admin.Api.Client.Models.Extensions;
+using System.Text;
 
 namespace Joe.Opayo.Admin.Api.Client.Models
 {

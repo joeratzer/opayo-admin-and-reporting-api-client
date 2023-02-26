@@ -25,5 +25,22 @@ namespace Joe.Opayo.Admin.Api.Client.Models.Extensions
             var serializer = new XmlSerializer(typeof(T));
             return (T?)serializer.Deserialize(new StringReader(xmlDoc.OuterXml));
         }
+
+        public static bool IsValidXml(this string? xmlText)
+        {
+            if (xmlText == null)
+                return false;
+
+            try
+            {
+                var doc = new XmlDocument();
+                doc.LoadXml(xmlText);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
     }
 }
