@@ -12,8 +12,8 @@ namespace Joe.Opayo.Admin.Api.Client
     public class OpayoAdminApiClient : IOpayoAdminApiClient
     {
         private readonly bool _useTestEnvironment;
-        private const string LiveUrl = "https://live.sagepay.com";
-        private const string TestUrl = "https://test.sagepay.com";
+        private const string LiveUrl = "https://live.opayo.eu.elavon.com";
+        private const string TestUrl = "https://sandbox.opayo.eu.elavon.com";
         private const string SuccessfulOpayoCode = "<errorcode>0000</errorcode>";
         private readonly IRequestValidation _requestValidation;
         private static HttpClient? _httpClient;
